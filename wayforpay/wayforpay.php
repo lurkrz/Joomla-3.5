@@ -156,7 +156,7 @@ class plgVmPaymentWayforpay extends vmPSPlugin
         $html = '	<form action="' . Wayforpay::URL . '" method="post" id="wayforpay_payment_form">
   				' . implode('', $wayforpayArgsArray) .
             '</form>' .
-            "<div><img src='/plugins/vmpayment/wayforpay/wayforpay/assets/images/loader.gif' width='50px' style='margin:20px 20px;'></div>" .
+            "<div><img src='/plugins/vmpayment/wayforpay/assets/images/loader.gif' width='50px' style='margin:20px 20px;'></div>" .
             "<script> setTimeout(function() {
                  document.getElementById('wayforpay_payment_form').submit();
              }, 100);
